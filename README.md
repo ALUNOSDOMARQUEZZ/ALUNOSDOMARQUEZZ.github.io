@@ -586,10 +586,7 @@ a.anchorjs-link {
     <div class="login-wrapper d-flex align-items-center justify-content-center" id="login-wrapper">
         <div class="custom-container">
             <div class="text-center px-4">
-                <p id="studentCount" class="mb-0" style="font-size: 39px; color: #00ff40; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);">
-                    <i class="fas fa-user-graduate" style="margin-right: 5px;"></i>
-                    <span style="font-weight: bold;">1000 ALUNOS</span> 
-                    <span style="color: #ff0000; font-weight: bold;">LIMITE: 1000</span>
+             
                 </p>
                 
                 <img class="login-intro-img" src="https://i.ibb.co/8xfpYGj/fotor-20241011144526.png" alt="Perfil">
@@ -607,7 +604,7 @@ a.anchorjs-link {
                     </div>
                     <div class="row">
                         <div class="col">
-                            <button class="btn btn-primary1 w-100" type="button" onclick="login('https://blaze1.space/pt/games/double')" style="height: 60px;">
+                            <button class="btn btn-primary1 w-100" type="button" onclick="login('https://blaze.bet.br/pt/games/double')" style="height: 60px;">
                                 <img src="https://blaze1.space/static/media/logo.cf45d2ad.svg" alt="Logo" class="icon-small">
                                 
                             </button>
@@ -711,7 +708,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         function login(url) {
     const password = document.getElementById('password').value;
-    if (password === 'ALUNO101') {
+    if (password === 'ALUNO1011') {
         document.getElementById('loading-message').style.display = 'block';
         setTimeout(() => {
             document.getElementById('login-iframe').src = url;
