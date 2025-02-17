@@ -141,9 +141,15 @@
     top: -9px;
     margin: 37px auto 20px;
     display: block;
-    TOP: -40PX;
-    POSITION: RELATIVE;
+    top: -40px;
+    position: relative;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Borda preta ao redor do texto */
 }
+
 .context-options .context-option.ativo {
     background-color: green;
 }
@@ -481,7 +487,7 @@ a.anchorjs-link {
     left: 0;
     width: 103%;
     height: 110%;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.774);
     display: none;
     justify-content: center;
     align-items: center;
@@ -561,14 +567,14 @@ a.anchorjs-link {
     transform: scale(0.95); /* Leve redução no tamanho */
 }
 .context-option.hack-mines {
-    background: linear-gradient(45deg, #000000, #000000);
+    background: linear-gradient(45deg, #0c11a3, #000000);
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    border: 2px solid white; /* Adiciona uma "porta branca" na forma de borda */
-    border-radius: 5px; /* Suaviza os cantos para um visual mais elegante */
+    border: 2px solid #000000;
+    border-radius: 9px;
 }
 .context-option.hack-mines:hover {
-    background: linear-gradient(45deg, #bd0000, #000000);
+    background: linear-gradient(45deg, #1c00bd, #000000);
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -577,11 +583,11 @@ a.anchorjs-link {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 .context-option.hack-double {
-    background: linear-gradient(45deg, #000000, #000000);
+    background: linear-gradient(45deg, #0c11a3, #000000);
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    border: 2px solid white; /* Adiciona uma "porta branca" na forma de borda */
-    border-radius: 5px; /* Suaviza os cantos para um visual mais elegante */
+    border: 2px solid rgb(0, 0, 0); /* Adiciona uma "porta branca" na forma de borda */
+    border-radius: 9px; /* Suaviza os cantos para um visual mais elegante */
 }
 .context-option.hack-double:hover {
     background: linear-gradient(45deg, #990202, #000000);
@@ -648,10 +654,10 @@ a.anchorjs-link {
 <img src="https://i.ibb.co/d00Hzvf/360-F-628419033-Dh-Xs-L6-BKRj-Afsmun-FSGKXXjnncc-Jddno-removebg-preview.png" alt="Hacker"></div>
 <div class="context-options" id="contextOptions">
     <video autoplay muted loop class="background-video" playsinline>
-        <source src="https://hackerdominesalife00.netlify.app/media/3585079191-preview.mp4_1728018529513-_uhUTxz9.mp4">
+        <source src="https://cdn.pixabay.com/video/2022/11/26/140521-775376205_large.mp4">
         Seu navegador não suporta a reprodução de vídeos.
     </video>
-    <span class="bot-title"><i class="fas fa-user-secret"></i> Hacker Marquez [2.0]</span>
+    <span class="bot-title"><i class="fas fa-user-secret"></i> Hacker do Marquez </span>
     
     <div id="result"></div>
     
